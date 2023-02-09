@@ -1,0 +1,21 @@
+a[href^="https://www.google.com/"]{
+    color:green;
+}
+a[target="_blank"]{
+    color:red;
+}
+#first-div > p::after{
+    content:"- NEW";
+    color:yellow;
+}
+#second-div > :nth-child(even){
+    color: red;
+}
+#second-div > :nth-child(2n+3){
+    color: blue;
+}
+
+body > p:last-of-type:hover{
+    font-style: italic;
+}
+
